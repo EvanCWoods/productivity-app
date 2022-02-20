@@ -57,3 +57,22 @@ header {
     position: relative;
     top: 80%;
 }
+
+#creation-container {
+    display: none;
+    justify-content: center;
+    width: 40%;
+    flex-wrap: wrap;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#submit-item {
+    width: 100%;
+    line-height: 1.3rem;
+    font-size: 1.3rem;
+}
+.input-field {
+    width: 100%;
+    line-height: 1.3rem;
+    font-size: 1.3rem;
+}
