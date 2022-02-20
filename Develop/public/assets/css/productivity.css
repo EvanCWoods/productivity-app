@@ -6,6 +6,28 @@
 button:hover {
     cursor: pointer;
 }
+header {
+    margin-bottom: 10%;
+    padding-bottom: 3%;
+    background: brown;
+}
+#header-welcome {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+#actions-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.header-action {
+    margin: 0 5% 0 5%;
+    padding: 1%;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
 #container {
     display: flex;
     justify-content: space-evenly;
