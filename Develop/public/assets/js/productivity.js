@@ -52,7 +52,7 @@ const addCard = (title, description) => {
 
 // Handle all deletions based on what is pressed
 const deleteButton = document.getElementById("delete-item");
-deleteButton.addEventListener("click", (e) => {
+deleteButton.addEventListener("click", () => {
     container.addEventListener("click", (e) => {
         console.log(e.target.className);
         const parent = e.target.parentNode;
@@ -68,6 +68,6 @@ deleteButton.addEventListener("click", (e) => {
         e.target.className == "card-description" || 
         e.target.className == "card-date") {
             dead.removeChild(gGrandParent);
-        }
-    })
-})
+        };
+    });
+});
